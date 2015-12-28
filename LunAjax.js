@@ -141,6 +141,7 @@ var LunAsync = function($element, options)
 		changeCurrent(null, configs.title, configs.url);
 	});
 
+	options = options || {};
 	extend(action, options);
 	return this;
 };
